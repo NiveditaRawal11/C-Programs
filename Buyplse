@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	// your code goes here
+	int a,b,x,y,res;
+	scanf("%d %d %d %d",&a,&b,&x,&y);
+	res=(a*x+b*y);
+	printf("%d",res);
+	return 0;
+	
+}
+
