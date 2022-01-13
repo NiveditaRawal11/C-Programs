@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int N,e,i,count=0,a[1000000];
+	scanf("%d",&N);
+	
+	for(i=1;i<=N;i++)
+	{
+	    if(N%i==0)
+	    {
+
+	        count++;
+	        
+	    } 
+	}
+	 printf("%d\n",count);
+	    for(i=1;i<=N;i++)
+	    {
+	       
+        if (N % i == 0) {
+            printf("%d ", i);
+        }
+    
+	    }
+	
+	return 0;
+}
