@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	int L,R;
+	scanf("%d %d",&L,&R);
+	for(int i=L;i<=R;i++)
+	{
+	  if(i%2!=0){
+	    printf("%d ",i);
+	  }
+	}
+	return 0;
+}
